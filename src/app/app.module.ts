@@ -2,10 +2,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { DateBoxComponent } from './date-box/date-box.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DateBoxComponent
   ],
   imports: [
     BrowserModule
